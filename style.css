@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+body{
+    /* height:44vw ; */
+    background-image: url("deer1.jpg");
+   background-size: cover;
+    display: flex;
+    align-items: center;
+ 
+    justify-content: center;
+}
+.form-container{
+       
+    /* width: 60vh; */
+   
+     margin: 5px 0; 
+    padding: 20px 10px;
+box-sizing: border-box;
+    border: 2px solid black;
+    
+}
+.box{
+    /* width: 50vh; */
+    color: aliceblue;
+
+    border: 2px solid ;
+   
+}
+a{
+
+    cursor:pointer;
+}
+a:hover{
+    color: red;
+}
+.btn{
+    /* width: 54vh; */
+    color:rgb(231, 221, 221);
+    /* cursor:pointer; */
+    background-color: rgb(29, 29, 84);
+    box-shadow: 4px 2px rgb(68, 54, 54) ;
+}
+.btn:hover{
+    color: rgb(220, 28, 28);
+}
+
+input{
+   
+    display: block;
+width: 100%;
+margin-top: 5px;
+border-radius: 5px;
+color: black;
+outline: none;
+font-size: 20px;
+}
+
+.form-container form .box{
+    width: 100%;
+    border-radius: 5px;
+    padding:12px 14px;
+    font-size: 18px;
+
+    margin:10px 0;
+    background-color: var(--light-bg);
+    
+ }
+.form-container form{
+   padding:20px;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   text-align: center;
+
+   border-radius: 5px;
+}
+
+.form-container h1{
+  color:rgb(15, 15, 17);
+    margin: 30px 0;
+ 
+   
+}
+p{
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(227, 231, 235);
+
+}
+@media (max-width:240px){
+    .update-profile form .flex{
+       flex-wrap: wrap;
+       gap:0;
+    }
+}
+
